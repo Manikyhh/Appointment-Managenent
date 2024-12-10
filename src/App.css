@@ -84,7 +84,14 @@ button:hover,
 [type=submit]:hover {
   background-color: #4556a0;
 }
-
+@media (max-width: 400px) {
+  li {
+    list-style: none;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+  }
+}
 .container {
   width: 60%;
   margin: auto;
