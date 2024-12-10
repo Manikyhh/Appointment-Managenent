@@ -123,7 +123,7 @@ function Todolist() {
               {item.completed ? (
                 <s>{item.text}</s>
               ) : (
-                <span>  {item.text}</span>
+               <span style={{marginRight:'20px'}}>{item.text}</span>
               )}
                <button style={{paddingLeft:'6px'}} onClick={() => handleToggleCompleted(item.id)}>
                 {item.completed ? 'Uncomplete' : 'Complete'}
